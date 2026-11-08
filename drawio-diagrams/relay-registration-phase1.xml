@@ -1,0 +1,66 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="xPEnqzBllDKP2PmqfI-d">
+    <mxGraphModel dx="680" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9ab5_muPiQecUBBmEmej-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=none;" value="Relay" vertex="1">
+          <mxGeometry height="480" width="100" x="130" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-9" parent="9ab5_muPiQecUBBmEmej-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=default;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="44.97" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-10" edge="1" parent="9ab5_muPiQecUBBmEmej-1" source="9ab5_muPiQecUBBmEmej-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;labelBackgroundColor=none;" target="9ab5_muPiQecUBBmEmej-9" value="genearate&lt;div&gt;attestation&lt;/div&gt;&lt;div&gt;report&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0638" y="-60" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-10" y="200" />
+              <mxPoint x="-10" y="240" />
+            </Array>
+            <mxPoint x="44.97" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=none;" value="Controller" vertex="1">
+          <mxGeometry height="480" width="100" x="390" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-12" parent="9ab5_muPiQecUBBmEmej-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="45" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-13" edge="1" parent="9ab5_muPiQecUBBmEmej-2" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;labelBackgroundColor=none;" target="9ab5_muPiQecUBBmEmej-12" value="verify attestation&lt;div&gt;report&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="420" />
+            </Array>
+            <mxPoint x="50" y="390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;align=left;fontSize=11;labelBackgroundColor=none;" target="9ab5_muPiQecUBBmEmej-2" value="sendmsg {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;action&quot;: &quot;register&quot;,&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;data&quot;: {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;relay_id&quot;: &quot;...&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;relay_ip&quot;: &quot;...&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="-0.9229" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="180" y="650" as="sourcePoint" />
+            <mxPoint x="389.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" value="recvmsg { &quot;nonce&quot;: &amp;lt;hex&amp;gt; }">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="439.5" y="690" as="sourcePoint" />
+            <mxPoint x="179.92857142857144" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;align=left;fontColor=default;textShadow=0;labelBackgroundColor=none;" value="sendmsg {&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;action&quot;: &quot;attest&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;data&quot;: {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;relay_id&quot;: &quot;...&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;attestation_report&lt;/span&gt;&quot;: &quot;...&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;br&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="-0.9229" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="180" y="880" as="sourcePoint" />
+            <mxPoint x="439.5" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" value="recvmsg { &quot;status&quot;: &quot;authenticated&quot; }">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="439.57142857142856" y="978" as="sourcePoint" />
+            <mxPoint x="180" y="978" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,68 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="xPEnqzBllDKP2PmqfI-d">
+    <mxGraphModel dx="1414" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9ab5_muPiQecUBBmEmej-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=none;" value="Relay" vertex="1">
+          <mxGeometry height="560" width="100" x="130" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-15" parent="9ab5_muPiQecUBBmEmej-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="45" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-16" edge="1" parent="9ab5_muPiQecUBBmEmej-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;labelBackgroundColor=none;" target="9ab5_muPiQecUBBmEmej-15" value="Generate PQC&amp;nbsp;&lt;div&gt;keypair&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0588" y="-90" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="20" y="250" />
+              <mxPoint x="20" y="280" />
+            </Array>
+            <mxPoint x="50" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=none;" value="Controller" vertex="1">
+          <mxGeometry height="560" width="100" x="390" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-12" parent="9ab5_muPiQecUBBmEmej-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="45" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-13" edge="1" parent="9ab5_muPiQecUBBmEmej-2" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="block until&amp;nbsp;&lt;div&gt;all relays&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;are&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;authenticated&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="180" />
+            </Array>
+            <mxPoint x="50" y="150" as="sourcePoint" />
+            <mxPoint x="55" y="179.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;align=left;fontSize=11;fontColor=default;labelBackgroundColor=none;" target="9ab5_muPiQecUBBmEmej-2" value="sendmsg {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;action&quot;: &quot;configuration&quot;,&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;data&quot;: {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;relay_id&quot;: &quot;...&quot;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="-0.9229" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="180" y="650" as="sourcePoint" />
+            <mxPoint x="389.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontColor=default;labelBackgroundColor=none;" value="recvmsg { &quot;configuration&quot;: &quot;...&quot; }">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="439.5" y="740" as="sourcePoint" />
+            <mxPoint x="179.92857142857144" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;align=left;fontColor=default;labelBackgroundColor=none;" value="sendmsg {&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;action&quot;: &quot;generate_certificates&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;data&quot;: {&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;&lt;/span&gt;relay_id&lt;span style=&quot;white-space: pre;&quot;&gt;&quot;: &quot;...&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;pqc_csr&quot;: &quot;...&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="-0.9229" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="180" y="940" as="sourcePoint" />
+            <mxPoint x="439.5" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ab5_muPiQecUBBmEmej-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;align=left;fontColor=default;labelBackgroundColor=none;" value="recvmsg {&amp;nbsp;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;pqc_certificate&quot;: &quot;...&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.5377" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="439.57142857142856" y="1050" as="sourcePoint" />
+            <mxPoint x="180" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
