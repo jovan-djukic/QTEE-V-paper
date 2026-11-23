@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
   <diagram name="Page-1" id="xPEnqzBllDKP2PmqfI-d">
-    <mxGraphModel dx="566" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="326" dy="227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +19,7 @@
             <mxPoint x="140" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HQNgWIUzujDoxibbby0c-5" connectable="0" parent="HQNgWIUzujDoxibbby0c-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="HTTP response/request&lt;div&gt;over ETSI QKD 014 API&lt;/div&gt;" vertex="1">
+        <mxCell id="HQNgWIUzujDoxibbby0c-5" connectable="0" parent="HQNgWIUzujDoxibbby0c-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="HTTP response/request&lt;div&gt;over ETSI GS QKD 014 API&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0111" y="-2" as="geometry">
             <mxPoint x="113" as="offset" />
           </mxGeometry>
